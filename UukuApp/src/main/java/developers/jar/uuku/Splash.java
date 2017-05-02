@@ -22,7 +22,7 @@ public class Splash extends Activity {
         setContentView(R.layout.activity_splash);
         VideoView videoView = (VideoView) findViewById(R.id.videoView_video);
 
-        Uri path = Uri.parse("android.resource://com.afollestad.easyvideoplayersample/"
+        Uri path = Uri.parse("android.resource://developers.jar.uuku/"
                 + R.raw.splashh);
 
         videoView.setVideoURI(path);
