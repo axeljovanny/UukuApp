@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.afollestad.easyvideoplayersample">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icoon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:screenOrientation="landscape"
+        android:theme="@style/AppTheme"
+        android:largeHeap="true"
+        android:hardwareAccelerated="false">
+        <activity android:name="developers.jar.uuku.Splash"
+            android:screenOrientation="landscape"
+
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="developers.jar.uuku.Login.LoginActivity"/>
+        <activity android:name="developers.jar.uuku.Login.Registrar"/>
+
+        <activity android:name="developers.jar.uuku.Login.MainActivity" android:configChanges="screenSize|orientation"/>
+        <activity android:name="developers.jar.uuku.menu.MenuActivity"/>
+        <activity android:name="developers.jar.uuku.about.AboutActivity"/>
+        <activity android:name="developers.jar.uuku.about.PoliticasActivity"/>
+
+        <activity android:name="developers.jar.uuku.cards.CardColorActivity" android:configChanges="screenSize|orientation"/>
+        <activity android:name="developers.jar.uuku.cards.CardLettersActivity" android:configChanges="screenSize|orientation"/>
+        <activity android:name="developers.jar.uuku.cards.CardLogicActivity" android:configChanges="screenSize|orientation"/>
+        <activity android:name="developers.jar.uuku.cards.CardNumbersActivity" android:configChanges="screenSize|orientation"/>
+
+
+        <activity android:name="developers.jar.uuku.MainActivity"/>
+        <activity android:name="developers.jar.uuku.menu.CardViewMainActivity" android:configChanges="screenSize|orientation"/>
+        <activity android:name="developers.jar.uuku.menu.stories.CuentaMainActivity" android:configChanges="screenSize|orientation"/>
+        <activity android:name="developers.jar.uuku.menu.stories.CircoMainActivity" android:configChanges="screenSize|orientation"/>
+        <activity android:name="developers.jar.uuku.menu.stories.DiasMainActivity" android:configChanges="screenSize|orientation"/>
+        <activity android:name="developers.jar.uuku.menu.stories.FamiliaMainActivity" android:configChanges="screenSize|orientation"/>
+        <activity android:name="developers.jar.uuku.menu.stories.ZooMainActivity" android:configChanges="screenSize|orientation"/>
+        <activity
+            android:name="developers.jar.uuku.juegos.ListenAndLearnActivity"
+            android:label="@string/title_activity_listen_and_learn" >
+        </activity>
+        <activity
+            android:name="developers.jar.uuku.juegos.ColoursGame"
+            android:label="@string/title_activity_advanced" >
+        </activity>
+        <activity
+            android:name="developers.jar.uuku.juegos.ColorActivity"
+            android:label="@string/title_activity_color" >
+        </activity>
+        <activity
+            android:name="developers.jar.uuku.juegos.NumberActivity"
+            android:label="@string/title_activity_number" >
+        </activity>
+        <activity
+            android:name="developers.jar.uuku.juegos.NumberGame"
+            android:label="@string/title_activity_number_game" >
+        </activity>
+        <activity
+            android:name="developers.jar.uuku.juegos.LetterGuess"
+            android:label="@string/title_activity_letter_guess" >
+        </activity>
+        <activity
+            android:name="developers.jar.uuku.juegos.HangmanActivity"
+            android:label="@string/title_activity_hangman" >
+        </activity>
+        <activity
+            android:name="developers.jar.uuku.juegos.WordMatchActivity"
+            android:label="@string/title_activity_word_match" >
+        </activity>
+        <activity
+            android:name="developers.jar.uuku.juegos.AbcActivity"
+            android:label="@string/title_activity_abc_sound" >
+        </activity>
+        <activity
+            android:name="developers.jar.uuku.juegos.ReadAndListen"
+            android:label="@string/title_activity_read_and_listen" >
+        </activity>
+        <activity
+            android:name="developers.jar.uuku.juegos.AbcSoundActivity"
+            android:label="@string/title_activity_alphabet_dez" >
+        </activity>
+        <activity
+            android:name="developers.jar.uuku.juegos.WeekDays"
+            android:label="@string/title_activity_week_days" >
+        </activity>
+
+    </application>
+
+</manifest>
